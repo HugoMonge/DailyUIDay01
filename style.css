@@ -1,0 +1,76 @@
+html {
+    background-color: #fdf0e4;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: 700px){
+        justify-content: center;
+    }
+}
+
+#company-name {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #314D59;
+}
+
+.banner {
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#SignUpImage {
+    border-radius: 20px;
+
+    @media (max-width: 700px){
+        height: 200px;
+    }
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: #593138;
+
+    @media (max-width: 700px){
+        font-size: 1.5rem;
+    }
+}
+
+#mail {
+    width: 350px;
+    height: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: light;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#boton-registro {
+    background-color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: light;
+    font-size: 1rem;
+    color: #314D59;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#boton-registro:hover {
+    background-color: #314D59;
+    color: white;
+  }
