@@ -19,7 +19,7 @@ html {
 }
 
 .banner {
-    height: 87vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
