@@ -42,7 +42,7 @@ h1 {
     color: #593138;
 
     @media (max-width: 700px){
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
